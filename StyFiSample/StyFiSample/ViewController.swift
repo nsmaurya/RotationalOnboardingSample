@@ -18,7 +18,7 @@ class ViewController: UIViewController {
     //constants
     let screenWidth         = UIScreen.main.bounds.size.width
     let screenHeight        = UIScreen.main.bounds.size.height
-    let finalRotationAngle:CGFloat = 5.3
+    let finalRotationAngle:CGFloat = 5.3 //5.3×180°/π = 303.66763142° (radian to degree)
     
     //variables
     var onboardingDataArray = [[String:String]]()
